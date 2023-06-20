@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Karantina', cursive;
+}
+
+body{
+    background-color: black;
+    display: flex;
+}
+
+header{
+    background-color: black;
+    position: absolute;
+    z-index: 4;
+    width: 100%;
+    top: -50px;
+    right: -10px;
+}
+
+.perfis{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 220px 80px;
+}
+
+.perfis :hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+
+.perfis img{
+    width: 100%;
+}
+
+p{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+#plus{
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+
